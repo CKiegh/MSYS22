@@ -1,0 +1,30 @@
+/* Source: https://www.w3schools.com/howto/howto_css_image_text.asp */
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.Heading{
+    color: white;
+    font-family: fantasy;
+    font-size: 60px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.StartButton{
+    color: white;
+    font-family: fantasy;
+    font-size: 40px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* StartButton Color */
+a {
+    color: White;
+}

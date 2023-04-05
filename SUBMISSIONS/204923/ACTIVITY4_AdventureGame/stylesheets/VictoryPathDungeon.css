@@ -1,0 +1,35 @@
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.GameExplain{
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* background */
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    text-align: center;
+}
+
+.Oscars{
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}

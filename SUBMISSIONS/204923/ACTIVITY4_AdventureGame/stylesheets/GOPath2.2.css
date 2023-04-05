@@ -1,0 +1,54 @@
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.GameOver{
+    color: white;
+    font-family: fantasy;
+    font-size: 100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.GameExplain{
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* background */
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    text-align: center;
+}
+
+.WillSlap{
+    color: white;
+    font-family: fantasy;
+    font-size: 100px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Correct{
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    text-align: center;
+}
+
+.Penguilator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.GameExplain{
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* background */
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    text-align: center;
+}
+
+.Correct{
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+.WrongButton1{
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.WrongButton2{
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.WrongButton3{
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
