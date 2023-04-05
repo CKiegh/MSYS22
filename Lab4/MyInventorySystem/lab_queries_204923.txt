@@ -1,0 +1,17 @@
+python manage.py shell
+from Myinventoryapp.models import WaterBottle
+from Myinventoryapp.models import Supplier
+
+
+a. WaterBottle.objects.all()
+b. Supplier.objects.order_by('country')
+c. WaterBottle.objects.order_by('Brand')
+d. WaterBottle.objects.filter(Color = "Black")
+e. WaterBottle.objects.filter(Color = "White", Brand = "Hydro Flask")
+f. WaterBottle.objects.filter(Supplied_By = "2")
+g. WaterBottle.objects.filter(Color = "Blue", Supplied_By = "3")
+h. Supplier.objects.filter(country = "Germany")
+i. WaterBottle.objects.filter(Cost__gte = "3000")
+j. WaterBottle.objects.filter(Supplied_By = "3") | WaterBottle.objects.filter(Supplied_By = "1")
+k. WaterBottle.objects.filter(Size__contains = "Oz").order_by("-Cost")
+l. WaterBottle.objects.filter(MouthSize = "Wide Mouth").exclude(Cost = "3000") [1]
